@@ -53,13 +53,17 @@ svg {
   font-weight: bold;
   border: 3px solid var(--primary);
   border-radius: 32px;
-  display: block;
+  display: flex;
   margin-top: 20px;
   align-content: center;
+	justify-content: center;
   transition: 0.4s;
-  padding-top: 15px;
-  padding-bottom: 15px;
 }
+.links > i {
+	display : flex;
+	align-items: center;
+}
+
 .links:hover {
   background-color: rgba(255, 255, 255, 0.2);
 }
